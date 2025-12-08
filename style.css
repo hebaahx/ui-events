@@ -105,3 +105,24 @@ a[href="#design"] {
   animation-duration: 1s;
   animation-iteration-count: 2;
 }
+
+/*translate animation*/
+@keyframes move {
+  0% {
+    translate: 0 0;
+  }
+
+  50%{
+    translate: 0 3em;
+  }
+  
+  100%{
+    translate: 0 0;
+  }
+}
+
+.translate{
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
