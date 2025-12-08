@@ -113,7 +113,7 @@ a[href="#design"] {
   }
 
   50%{
-    translate: 0 3em;
+    translate: 3em 0;
   }
   
   100%{
