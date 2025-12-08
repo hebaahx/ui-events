@@ -103,5 +103,5 @@ a[href="#design"] {
 .scale {
   animation-name: scaleUp;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
 }
