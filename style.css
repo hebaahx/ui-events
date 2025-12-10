@@ -126,3 +126,24 @@ a[href="#design"] {
   animation-duration: 1s;
   animation-iteration-count: 1;
 }
+
+/*shake animation*/
+@keyframes shake {
+  0% {
+  translate: 0;
+  }
+
+  50% {
+    translate: 0 .3em;
+  }
+
+  100% {
+    translate: 0 -.3em;
+  }
+}
+
+.shake{
+  animation-name: shake;
+  animation-duration: 0.2s;
+  animation-iteration-count: 5;
+}

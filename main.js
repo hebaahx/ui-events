@@ -48,6 +48,17 @@ let translateLink = document.querySelector('a[href="#and"]')
 translateLink.addEventListener('click', function(){
   // stap 3: verschuiven van link &
   translateLink.classList.toggle('translate')
-}
-)
+})
+
+//SHAKE
+//selecteer link
+let shakeLink = document.querySelector('a[href="#development"]')
+//event is dubbel klikken
+shakeLink.addEventListener('dblclick', function() {
+
+//laat link shaken
+shakeLink.classList.add('shake')
+})
+
+
 
