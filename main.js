@@ -71,4 +71,17 @@ sprintLink.classList.add('focus-color')
 }
 )
 
+//selecteer de link van fix
+let fixLink = document.querySelector('a[href="#fix"]')
+
+// event: mouseover
+fixLink.addEventListener('mouseover', function() {
+  // verander de tekst in bijvoorbeeld "practice makes almost perfect ;)" 
+  //classlist toevoegen
+  fixLink.textContent = 'Practice makes almost perfect ;)'
+  fixLink.classList.add('textChange')
+}
+)
+
+
 
