@@ -60,5 +60,15 @@ shakeLink.addEventListener('dblclick', function() {
 shakeLink.classList.add('shake')
 })
 
+//FOCUS
+//stap 1 querySelector welke link
+let sprintLink = document.querySelector('a[href="#sprint-5"]')
+
+//stap 2 focus event 
+sprintLink.addEventListener('focus', function() {
+//stap 3 color veranderen bij focus
+sprintLink.classList.add('focus-color')
+}
+)
 
 
