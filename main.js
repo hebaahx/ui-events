@@ -83,5 +83,13 @@ fixLink.addEventListener('mouseover', function() {
 }
 )
 
+//ROTATE
+//stap 1: Selecteer de link
+let rotateLink = document.querySelector('a[href="#the"]')
 
+//Stap 2 : event gebruiken: mouseout
+rotateLink.addEventListener('mouseout',function() {
 
+  //stap 3:class toevoegen
+  rotateLink.classList.add('rotate')
+})
